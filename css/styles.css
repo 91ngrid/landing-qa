@@ -67,8 +67,9 @@ nav a :focus-visible{
     border-radius: 1rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: grid;
-    max-width: 20rem;
+    max-width: 22rem;
     margin: 0 auto;
+    margin-bottom: 1.5rem;
     padding: 1rem 3%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -79,7 +80,7 @@ nav a :focus-visible{
     transform: translate(-20px);
     border-color: rgba(255, 255, 0.08);
     border-width: 0.3rem;
-    box-shadow: 0 10px 30px -10px rgba(252, 253, 253, 0.15);
+    box-shadow: 0 20px 30px -10px rgba(252, 253, 253, 0.15);
     font-size: 120%;
     font-weight: bold;
     color:  rgba(255, 255, 0.08);;
@@ -106,6 +107,7 @@ nav a :focus-visible{
     padding-bottom: 2%;
     display: block;
     font-size: 110%;
+    line-height: 1.6;
 }
 .proyecto a {
     display: block;
@@ -135,6 +137,16 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     padding: 1rem 2%;
 }
+footer a {
+     color: rgb(15, 245, 203);
+     text-decoration: none;
+     font-weight: bold;
+}
+footer a:hover {
+     color: rgba(255, 255, 0.08);
+     text-decoration: none;
+     font-weight: bold;
+}
 #footer-links {
 
 }
@@ -159,4 +171,6 @@ btn-ir-arriba {
 .btn-ir-arriba:hover {
     opacity: 1;
     visibility: visible;
+    color: rgba(255, 255, 0.08);
+    font-weight: bold;
 }

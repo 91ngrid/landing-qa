@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded'), ()=>{
     const btnIrArriba = document.getElementById('btn-ir-arriba');
     if(btnIrArriba){
         window.addEventListener('scroll'), ()=>{
-            if(window.scrollY > 300){
+            if(window.scrollY > 200){
                 btnIrArriba.classList.add('show');
             }
             else {
